@@ -24,21 +24,43 @@
       <!--Navigation Section-->
       <nav class="main-navigation">
         <ul>
-          <li>
-            <a href="./index.html"><span class="current">Studio</span></a>
-          </li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <div class="list-nav">
+            <li>
+              <a href="./index.html"><span class="current">Studio</span></a>
+            </li>
+            <div  class="rectangle"></div>
+          </div>
+          
+          
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            
+          
+          <div class="list-nav">
+            <li><a href="#">Contacts</a></li>
+            <div  class="rectangle-three"></div>
+          </div>
+          
         </ul>
       </nav>
 
       <div class="contact-container">
-        <a class="links" href="info@devstudio.com">info@devstudio.com</a><br />
-        <a class="links" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+        <div class="info">
+          <svg class="icon-envelope"> 
+            <use href="./symbol-defs.svg#icon-envelope-hover"/>
+          </svg>
+          <a class="links" href="info@devstudio.com">info@devstudio.com</a><br />
+
+        </div>
+        <div class="info">
+          <svg class="icon-smartphone"> 
+            <use href="./symbol-defs.svg#icon-smartphone"/>
+          </svg>
+          <a class="links" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+        </div>
       </div>
     </header>
     <main>
-      <section class="section">
+      <section class="section ">
         <div class="solution">
           <div class="solution-container">
             <h1 class="title">EFFECTIVE SOLUTIONS FOR <br />YOUR BUSINESS</h1>
@@ -48,38 +70,82 @@
       </section>
 
       <section class="section">
-        <div class="service-container">
-          <ul>
-            <li class="item">
-              <h3>ATTENTION TO DETAILS</h3>
-              <p>
-                We go into all the details and processes of your business to
-                develop a customized solution.
-              </p>
-            </li>
-            <li class="item">
-              <h3>PUNCTUALITY</h3>
-              <p>
-                With us, you can feel safe and secure. An important principle of
-                the company: respect your time and deadlines.
-              </p>
-            </li>
-            <li class="item">
-              <h3>PLANNING</h3>
-              <p>
-                You will be able to observe and participate in every phase of
-                solution development and implementation.
-              </p>
-            </li>
-            <li class="item">
-              <h3>MODERN TECHNOLOGIES</h3>
-              <p>
-                We use innovative tools to solve assigned tasks. It's time to
-                simplify work processes.
-              </p>
-            </li>
-          </ul>
+        <div>
+          <div class="icon-list">
+            <ul>
+  
+              <div class="icon-detail">
+                <li>
+                  <svg width="70" height="70"> 
+                    <use href="./symbol-defs.svg#icon-antenna-1"/>
+                  </svg>
+                </li>
+              </div>
+  
+              <div class="icon-detail">
+                <li>
+                  <svg width="70" height="70"> 
+                  <use href="./symbol-defs.svg#icon-clock-1"/>
+                  </svg>
+                </li>
+              </div>
+  
+              <div class="icon-detail">
+                <li>
+                  <svg width="70" height="70"> 
+                  <use href="./symbol-defs.svg#icon-diagram-1"/>
+                  </svg>
+                </li>
+              </div>
+  
+              <div class="icon-detail">
+                <li>
+                  <svg width="70" height="70"> 
+                  <use href="./symbol-defs.svg#icon-astronaut-1"/>
+                  </svg>
+                </li>
+              </div>
+              
+            </ul>
+          </div>
+          <div class="service-container">
+            <ul>
+              <div class="item">
+                <li >
+                  <h3>ATTENTION TO DETAILS</h3>
+                  <p>
+                    We go into all the details and processes of your business to
+                    develop a customized solution.
+                  </p>
+                </li>
+              </div>
+              
+              <li class="item">
+                <h3>PUNCTUALITY</h3>
+                <p>
+                  With us, you can feel safe and secure. An important principle of
+                  the company: respect your time and deadlines.
+                </p>
+              </li>
+              <li class="item">
+                <h3>PLANNING</h3>
+                <p>
+                  You will be able to observe and participate in every phase of
+                  solution development and implementation.
+                </p>
+              </li>
+              <li class="item">
+                <h3>MODERN TECHNOLOGIES</h3>
+                <p>
+                  We use innovative tools to solve assigned tasks. It's time to
+                  simplify work processes.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        
       </section>
 
       <!--Section ''What we do''-->
@@ -124,45 +190,301 @@
                 />
                 <h3>Christopher Walker</h3>
                 <p>Product Designer</p>
+                
+                <div class="social-icon">
+                  <ul>
+
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20">
+                          <use href="./symbol-defs.svg#icon-instagram-2"/> 
+                        </svg>
+                      </li>
+                    </div>
+
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20"> 
+                          <use href="./symbol-defs.svg#icon-twitter-1"/>
+                        </svg>
+                      </li>
+                    </div>
+                    
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20"> 
+                          <use href="./symbol-defs.svg#icon-facebook-1"/>
+                        </svg>
+                      </li>
+                    </div>
+                    
+                    <div class="symbol">
+                      <li>
+                       <svg width="20" height="20"> 
+                        <use href="./symbol-defs.svg#icon-linkedin-1"/>
+                       </svg>
+                    </li>
+                  </div>
+                    
+                  </ul> 
+                </div>
               </li>
+
               <li class="item-team">
                 <img src="./images/photo2.jpg" alt="Kylie Evans" width="270" />
                 <h3>Kylie Evans</h3>
                 <p>Frontend Developer</p>
+
+                <div class="social-icon">
+                  <ul>
+
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20">
+                          <use href="./symbol-defs.svg#icon-instagram-2"/>
+                        </svg>
+                      </li>
+                    </div>
+
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20"> 
+                          <use href="./symbol-defs.svg#icon-twitter-1"/>
+                        </svg>
+                      </li>
+                    </div>
+                    
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20"> 
+                          <use href="./symbol-defs.svg#icon-facebook-1"/>
+                        </svg>
+                      </li>
+                    </div>
+                    
+                    <div class="symbol">
+                      <li>
+                       <svg width="20" height="20"> 
+                        <use href="./symbol-defs.svg#icon-linkedin-1"/>
+                       </svg>
+                    </li>
+                  </div>
+                    
+                  </ul> 
+                </div>
               </li>
               <li class="item-team">
                 <img src="./images/photo3.jpg" alt="Ryan Harris" width="270" />
                 <h3>Ryan Harris</h3>
                 <p>Marketing</p>
+
+                <div class="social-icon">
+                  <ul>
+
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20">
+                          <use href="./symbol-defs.svg#icon-instagram-2"/>
+                        </svg>
+                      </li>
+                    </div>
+
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20"> 
+                          <use href="./symbol-defs.svg#icon-twitter-1"/>
+                        </svg>
+                      </li>
+                    </div>
+                    
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20"> 
+                          <use href="./symbol-defs.svg#icon-facebook-1"/>
+                        </svg>
+                      </li>
+                    </div>
+                    
+                    <div class="symbol">
+                      <li>
+                       <svg width="20" height="20"> 
+                        <use href="./symbol-defs.svg#icon-linkedin-1"/>
+                       </svg>
+                    </li>
+                  </div>
+                    
+                  </ul> 
+                </div>
               </li>
               <li class="item-team">
                 <img src="./images/photo4.jpg" alt="Tyler Moore" width="270" />
                 <h3>Tyler Moore</h3>
                 <p>UI Designer</p>
+                <div class="social-icon">
+                  <ul>
+
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20">
+                          <use href="./symbol-defs.svg#icon-instagram-2"/>
+                        </svg>
+                      </li>
+                    </div>
+
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20"> 
+                          <use href="./symbol-defs.svg#icon-twitter-1"/>
+                        </svg>
+                      </li>
+                    </div>
+                    
+                    <div class="symbol">
+                      <li>
+                        <svg width="20" height="20"> 
+                          <use href="./symbol-defs.svg#icon-facebook-1"/>
+                        </svg>
+                      </li>
+                    </div>
+                    
+                    <div class="symbol">
+                      <li>
+                       <svg width="20" height="20"> 
+                        <use href="./symbol-defs.svg#icon-linkedin-1"/>
+                       </svg>
+                    </li>
+                  </div>
+                    
+                  </ul> 
+                </div>
               </li>
             </ul>
           </div>
         </div>
       </section>
+    <!--Section ''Regular Customer''-->
+    <section>
+    
+      <div class="regular-custumer">
+        <h2>Regular Customers</h2>
+
+        <ul>
+          <div class="regular">
+            <li>
+            <svg width="160" height="60"> 
+              <use href="./symbol-defs.svg#icon-Logo-2"/>
+            </svg>
+          </li>
+          </div>
+
+          <div class="regular">
+            <li>
+              <svg width="160" height="60"> 
+                <use href="./symbol-defs.svg#icon-Logo-3"/>
+              </svg>
+            </li>
+          </div>
+          
+          <div class="regular">
+            <li>
+              <svg width="160" height="60"> 
+                <use href="./symbol-defs.svg#icon-Logo-4"/>
+              </svg>
+            </li>
+          </div>
+          
+          <div class="regular">
+            <li>
+              <svg width="160" height="60"> 
+                <use href="./symbol-defs.svg#icon-Logo-7"/>
+              </svg>
+            </li>
+          </div>
+          
+          <div class="regular">
+            <li>
+              <svg width="160" height="60">  
+                <use href="./symbol-defs.svg#icon-Logo-5"/>
+              </svg>
+            </li>
+          </div>
+          
+          <div class="regular">
+            <li>
+              <svg width="160" height="60"> 
+                <use href="./symbol-defs.svg#icon-Logo-6"/>
+              </svg>
+            </li>
+          </div>
+          
+        </ul>
+      </div>
+
+    </section>
+
     </main>
     <!--Section ''Footer''-->
     <footer class="information">
-      <div>
-        <a class="logo" href="./index.html">
-          <span class="web">Web</span><span class="studio">Studio</span></a
-        >
-        <div class="contacts-container">
-          <address class="contacts">
-            <span class="street">695 Park Ave, NY 10065, USA </span>
-            <a class="links" href="info@devstudio.com">
-              <span class="info">info@devstudio.com </span></a
-            >
-            <a class="links" href="tel:+1-212-772-4150"
-              ><span class="nummber">+1 212-772-4150 </span></a
-            >
-          </address>
+      <div class="information-address">
+        <div>
+          <a class="logo" href="./index.html">
+            <span class="web">Web</span><span class="studio">Studio</span></a
+          >
+          <div class="contacts-container">
+            <address class="contacts">
+              <span class="street">695 Park Ave, NY 10065, USA </span>
+              <a class="links" href="info@devstudio.com">
+                <span class="info">info@devstudio.com </span></a
+              >
+              <a class="links" href="tel:+1-212-772-4150"
+                ><span class="nummber">+1 212-772-4150 </span></a
+              >
+            </address>
+          </div>
+        </div>
+  
+        <div class="address-icon">
+          <h3>Find us on</h3>
+          <div class="social-icon">
+            <ul>
+  
+              <div class="symbol">
+                <li>
+                  <svg width="20" height="20">
+                    <use href="./symbol-defs.svg#icon-instagram-2"/>
+                  </svg>
+                </li>
+              </div>
+  
+              <div class="symbol">
+                <li>
+                  <svg width="20" height="20"> 
+                    <use href="./symbol-defs.svg#icon-twitter-1"/>
+                  </svg>
+                </li>
+              </div>
+              
+              <div class="symbol">
+                <li>
+                  <svg width="20" height="20"> 
+                    <use href="./symbol-defs.svg#icon-facebook-1"/>
+                  </svg>
+                </li>
+              </div>
+              
+              <div class="symbol">
+                <li>
+                 <svg width="20" height="20" > 
+                  <use href="./symbol-defs.svg#icon-linkedin-1"/>
+                 </svg>
+              </li>
+            </div>
+              
+            </ul> 
+          </div>
         </div>
       </div>
+      
     </footer>
   </body>
 </html>

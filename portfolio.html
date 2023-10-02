@@ -25,14 +25,33 @@
           <li>
             <a href="./index.html">Studio</a>
           </li>
-          <li><a href="./portfolio.html"><span class="current">Portfolio</span></a></li>
-          <li><a href="#">Contacts</a></li>
+
+          <div class="list-nav-two">
+            <li><a href="./portfolio.html"><span class="current">Portfolio</span></a></li>
+            <div  class="rectangle-two"></div>
+          </div>
+          
+          <div class="list-nav-two">
+            <li><a href="#">Contacts</a></li>
+            <div  class="rectangle-three"></div>
+          </div>
         </ul>
       </nav>
 
       <div class="contact-container">
-        <a class="links" href="info@devstudio.com">info@devstudio.com</a><br />
-        <a class="links" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+        <div class="info">
+          <svg class="icon-envelope"> 
+            <use href="./symbol-defs.svg#icon-envelope-hover"/>
+          </svg>
+          <a class="links" href="info@devstudio.com">info@devstudio.com</a><br />
+
+        </div>
+        <div class="info">
+          <svg class="icon-smartphone"> 
+            <use href="./symbol-defs.svg#icon-smartphone"/>
+          </svg>
+          <a class="links" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+        </div>
       </div>
     </header>
 
@@ -198,20 +217,63 @@
     <!--Section ''Footer''-->
 
     <footer class="information">
-      <div>
-        <a class="logo" href="./index.html">
-          <span class="web">Web</span><span class="studio">Studio</span></a
-        >
-        <div class="contacts-container">
-          <address class="contacts">
-            <span class="street">695 Park Ave, NY 10065, USA </span>
-            <a class="links" href="info@devstudio.com">
-              <span class="info">info@devstudio.com </span></a
-            >
-            <a class="links" href="tel:+1-212-772-4150"
-              ><span class="nummber">+1 212-772-4150 </span></a
-            >
-          </address>
+      <div class="information-address">
+        <div>
+          <a class="logo" href="./index.html">
+            <span class="web">Web</span><span class="studio">Studio</span></a
+          >
+          <div class="contacts-container">
+            <address class="contacts">
+              <span class="street">695 Park Ave, NY 10065, USA </span>
+              <a class="links" href="info@devstudio.com">
+                <span class="info">info@devstudio.com </span></a
+              >
+              <a class="links" href="tel:+1-212-772-4150"
+                ><span class="nummber">+1 212-772-4150 </span></a
+              >
+            </address>
+          </div>
+        </div>
+  
+        <div class="address-icon">
+          <h3>Find us on</h3>
+          <div class="social-icon">
+            <ul>
+  
+              <div class="symbol">
+                <li>
+                  <svg width="20" height="20">
+                    <use href="./symbol-defs.svg#icon-instagram-2"/>
+                  </svg>
+                </li>
+              </div>
+  
+              <div class="symbol">
+                <li>
+                  <svg width="20" height="20"> 
+                    <use href="./symbol-defs.svg#icon-twitter-1"/>
+                  </svg>
+                </li>
+              </div>
+              
+              <div class="symbol">
+                <li>
+                  <svg width="20" height="20"> 
+                    <use href="./symbol-defs.svg#icon-facebook-1"/>
+                  </svg>
+                </li>
+              </div>
+              
+              <div class="symbol">
+                <li>
+                 <svg width="20" height="20"> 
+                  <use href="./symbol-defs.svg#icon-linkedin-1"/>
+                 </svg>
+              </li>
+            </div>
+              
+            </ul> 
+          </div>
         </div>
       </div>
     </footer>
