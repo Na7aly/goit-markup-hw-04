@@ -18,39 +18,43 @@
   </head>
   <body>
     <header class="global-header">
-      <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
-      <!--Navigation Section-->
-      <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="./index.html">Studio</a>
-          </li>
+      <div class="container">
+        <div class="list-navig">
+          <a class="logo" href="./index.html">
+            <span class="web">Web</span>Studio
+          </a>
+          <!--Navigation Section-->
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a href="./index.html">Studio</a>
+              </li>
+              <div class="list-nav-two">
+                <li><a href="./portfolio.html"><span class="current">Portfolio</span></a></li>
+                <div  class="rectangle-two"></div>
+              </div>
+              <div class="list-nav-two">
+                <li><a href="#">Contacts</a></li>
+                <div  class="rectangle-three"></div>
+              </div>
+            </ul>
+          </nav>
 
-          <div class="list-nav-two">
-            <li><a href="./portfolio.html"><span class="current">Portfolio</span></a></li>
-            <div  class="rectangle-two"></div>
+          <div class="contact-container">
+            <div class="info">
+              <svg class="icon-envelope"> 
+                <use href="./symbol-defs.svg#icon-envelope-hover"/>
+              </svg>
+              <a class="links" href="info@devstudio.com">info@devstudio.com</a><br />
+    
+            </div>
+            <div class="info">
+              <svg class="icon-smartphone"> 
+                <use href="./symbol-defs.svg#icon-smartphone"/>
+              </svg>
+              <a class="links" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+            </div>
           </div>
-          
-          <div class="list-nav-two">
-            <li><a href="#">Contacts</a></li>
-            <div  class="rectangle-three"></div>
-          </div>
-        </ul>
-      </nav>
-
-      <div class="contact-container">
-        <div class="info">
-          <svg class="icon-envelope"> 
-            <use href="./symbol-defs.svg#icon-envelope-hover"/>
-          </svg>
-          <a class="links" href="info@devstudio.com">info@devstudio.com</a><br />
-
-        </div>
-        <div class="info">
-          <svg class="icon-smartphone"> 
-            <use href="./symbol-defs.svg#icon-smartphone"/>
-          </svg>
-          <a class="links" href="tel:+1-212-772-4150">+1 212-772-4150</a>
         </div>
       </div>
     </header>
@@ -58,224 +62,220 @@
     <main>
       <!--Portofolio Section-->
       <section class="section">
-        <div class="portofolio-container">
-        <!--<section class="section">-->
-          <div class="button-container">
-            <ul>
-              <li><button class="button-filter" type="button">All</button></li>
-              <li>
-                <button class="button-filter" type="button">Web-sites</button>
-              </li>
-              <li><button class="button-filter" type="button">Apps</button></li>
-              <li>
-                <button class="button-filter" type="button">Design</button>
-              </li>
-              <li>
-                <button class="button-filter" type="button">Marketing</button>
-              </li>
-            </ul>
+        <div class="container">
+          <div class="portofolio-container">
+            <!--<section class="section">-->
+              <div class="button-container">
+                <ul>
+                  <li><button class="button-filter" type="button">All</button></li>
+                  <li>
+                    <button class="button-filter" type="button">Web-sites</button>
+                  </li>
+                  <li><button class="button-filter" type="button">Apps</button></li>
+                  <li>
+                    <button class="button-filter" type="button">Design</button>
+                  </li>
+                  <li>
+                    <button class="button-filter" type="button">Marketing</button>
+                  </li>
+                </ul>
+              </div>
+            <div class="filter-section">
+              <!--<section class="section">-->
+                <ul>
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/technoduck.jpg"
+                        alt="Technoduck"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h3>Technoduck</h3>
+                        <p>Web-site</p>
+                      </div>
+                    </div>
+                  </li>
+    
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/poster-new_orlean_vs_golden_star.jpg"
+                        alt="Poster New Orlean vs Golden Star"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h3>Poster New Orlean vs Golden Star</h3>
+                        <p>Design</p>
+                      </div>
+                    </div>
+                  </li>
+    
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/seafood_restaurant.jpg"
+                        alt="Seafood Restaurant"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h3>Seafood Restaurant</h3>
+                        <p>Apps</p>
+                      </div>
+                    </div>
+                  </li>
+    
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/project_prime.jpg"
+                        alt="Project Prime"
+                        width="370"
+                      />
+                    </div>
+                    <div class="card-text">
+                      <h3>Project Prime</h3>
+                      <p>Marketing</p>
+                    </div>
+                  </li>
+    
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/project_boxes.jpg"
+                        alt="Project Boxes"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h3>Project Boxes</h3>
+                        <p>Apps</p>
+                      </div>
+                    </div>
+                  </li>
+    
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/inspiration_has_no_borders.jpg"
+                        alt="Inspiration has no Borders"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h3>Inspiration has no Borders</h3>
+                        <p>Web-site</p>
+                      </div>
+                    </div>
+                  </li>
+    
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/limited_edition.jpg"
+                        alt="Limited Edition"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h3>Limited Edition</h3>
+                        <p>Design</p>
+                      </div>
+                    </div>
+                  </li>
+    
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/project_lab.jpg"
+                        alt="Project LAB"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h3>Project LAB</h3>
+                        <p>Marketing</p>
+                      </div>
+                    </div>
+                  </li>
+    
+                  <li class="item-filter">
+                    <div class="projects-grid-img">
+                      <img
+                        src="./images/growing_business.jpg"
+                        alt="Growing Business"
+                        width="370"
+                      />
+                      <div class="card-text">
+                        <h3>Growing Business</h3>
+                        <p>Apps</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+            </div>
           </div>
-        </section>
-
-        <div class="filter-section">
-          <!--<section class="section">-->
-            <ul>
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/technoduck.jpg"
-                    alt="Technoduck"
-                    width="370"
-                  />
-                  <div class="card-text">
-                    <h3>Technoduck</h3>
-                    <p>Web-site</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/poster-new_orlean_vs_golden_star.jpg"
-                    alt="Poster New Orlean vs Golden Star"
-                    width="370"
-                  />
-                  <div class="card-text">
-                    <h3>Poster New Orlean vs Golden Star</h3>
-                    <p>Design</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/seafood_restaurant.jpg"
-                    alt="Seafood Restaurant"
-                    width="370"
-                  />
-                  <div class="card-text">
-                    <h3>Seafood Restaurant</h3>
-                    <p>Apps</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/project_prime.jpg"
-                    alt="Project Prime"
-                    width="370"
-                  />
-                </div>
-                <div class="card-text">
-                  <h3>Project Prime</h3>
-                  <p>Marketing</p>
-                </div>
-              </li>
-
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/project_boxes.jpg"
-                    alt="Project Boxes"
-                    width="370"
-                  />
-                  <div class="card-text">
-                    <h3>Project Boxes</h3>
-                    <p>Apps</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/inspiration_has_no_borders.jpg"
-                    alt="Inspiration has no Borders"
-                    width="370"
-                  />
-                  <div class="card-text">
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Web-site</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/limited_edition.jpg"
-                    alt="Limited Edition"
-                    width="370"
-                  />
-                  <div class="card-text">
-                    <h3>Limited Edition</h3>
-                    <p>Design</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/project_lab.jpg"
-                    alt="Project LAB"
-                    width="370"
-                  />
-                  <div class="card-text">
-                    <h3>Project LAB</h3>
-                    <p>Marketing</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="item-filter">
-                <div>
-                  <img
-                    src="./images/growing_business.jpg"
-                    alt="Growing Business"
-                    width="370"
-                  />
-                  <div class="card-text">
-                    <h3>Growing Business</h3>
-                    <p>Apps</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </section>
         </div>
-      </div>
       </section>
-
-      
     </main>
 
     <!--Section ''Footer''-->
-
     <footer class="information">
-      <div class="information-address">
-        <div>
-          <a class="logo" href="./index.html">
-            <span class="web">Web</span><span class="studio">Studio</span></a
-          >
-          <div class="contacts-container">
-            <address class="contacts">
-              <span class="street">695 Park Ave, NY 10065, USA </span>
-              <a class="links" href="info@devstudio.com">
-                <span class="info">info@devstudio.com </span></a
-              >
-              <a class="links" href="tel:+1-212-772-4150"
-                ><span class="nummber">+1 212-772-4150 </span></a
-              >
-            </address>
-          </div>
-        </div>
-  
-        <div class="address-icon">
-          <h3>Find us on</h3>
-          <div class="social-icon">
-            <ul>
-  
-              <div class="symbol">
-                <li>
-                  <svg width="20" height="20">
-                    <use href="./symbol-defs.svg#icon-instagram-2"/>
-                  </svg>
-                </li>
-              </div>
-  
-              <div class="symbol">
-                <li>
-                  <svg width="20" height="20"> 
-                    <use href="./symbol-defs.svg#icon-twitter-1"/>
-                  </svg>
-                </li>
-              </div>
-              
-              <div class="symbol">
-                <li>
-                  <svg width="20" height="20"> 
-                    <use href="./symbol-defs.svg#icon-facebook-1"/>
-                  </svg>
-                </li>
-              </div>
-              
-              <div class="symbol">
-                <li>
-                 <svg width="20" height="20"> 
-                  <use href="./symbol-defs.svg#icon-linkedin-1"/>
-                 </svg>
-              </li>
+      <div class="container">
+        <div class="information-address">
+          <div>
+            <a class="logo" href="./index.html">
+              <span class="web">Web</span><span class="studio">Studio</span></a
+            >
+            <div class="contacts-container">
+              <address class="contacts">
+                <span class="street">695 Park Ave, NY 10065, USA </span>
+                <a class="links" href="info@devstudio.com">
+                <span class="info">info@devstudio.com </span></a>
+                <a class="links" href="tel:+1-212-772-4150"> 
+                <span class="nummber">+1 212-772-4150 </span></a>
+              </address>
             </div>
-              
-            </ul> 
+          </div>
+    
+          <div class="address-icon">
+            <h3>Find us on</h3>
+            <div class="social-icon">
+              <ul>
+                <li>
+                  <a class="svg-link">
+                    <svg  class="c" width="20" height="20">
+                      <use  href="./symbol-defs.svg#icon-instagram-2"/>
+                    </svg>
+                  </a>
+                </li>
+  
+                <li>
+                  <a class="svg-link">
+                    <svg width="20" height="20"> 
+                      <use href="./symbol-defs.svg#icon-twitter-1"/>
+                    </svg>
+                  </a>
+                </li>
+  
+                <li>
+                  <a class="svg-link">
+                    <svg width="20" height="20"> 
+                      <use href="./symbol-defs.svg#icon-facebook-1"/>
+                    </svg>
+                  </a>
+                </li>
+  
+                <li>
+                  <a class="svg-link">
+                    <svg width="20" height="20"> 
+                    <use href="./symbol-defs.svg#icon-linkedin-1"/>
+                   </svg>
+                  </a>
+                </li>
+              </ul> 
+            </div>
           </div>
         </div>
       </div>
+      
     </footer>
   </body>
 </html>
